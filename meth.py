@@ -1,4 +1,3 @@
-import math
 problem_type = input("Type 1 for right triangle checker. Type 2 for hypotenuse calc. for right triangle. Type 3 for missing arm value calc. for right triangle. Type 4 for volume of a cylinder calc. Type 5 for cone volume calc. Type 6 for volume of a sphere calc.")
 if problem_type == "1":
   a = input("a=")
@@ -51,7 +50,7 @@ elif problem_type == "6":
   a = input("radius=")
   a = float(a)
   a = a ** 3
-  a = a * math.pi
+  a = a * 3.14
   a = a * 4
   a = a / 3
   print("The volume is about" , a)

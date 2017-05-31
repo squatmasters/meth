@@ -1,18 +1,7 @@
+import pythagore
 problem_type = input("Type 1 for right triangle checker. Type 2 for hypotenuse calc. for right triangle. Type 3 for missing arm value calc. for right triangle. Type 4 for volume of a cylinder calc. Type 5 for cone volume calc. Type 6 for volume of a sphere calc.")
 if problem_type == "1":
-  a = input("a=")
-  b = input("b=")
-  c = input("c=")
-  a = float(a)
-  b = float(b)
-  c = float(c)
-  a = a ** 2
-  b = b ** 2
-  c = c ** 2
-  if a + b == c:
-    print("It is a right triangle with c squared equaling" , c , "and a and b squared equaling" , a , "and" , b)
-  else:
-    print("It isn't a right triangle. a, b, and c squared equal" , a , b , "and" , c)
+  pythagore.check()
 elif problem_type == "2":
   a = input("a=")
   b = input("b=")

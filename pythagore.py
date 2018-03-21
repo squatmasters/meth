@@ -17,5 +17,5 @@ def check() {
   if a + b == c:
     print("This is a right triangle.")
   else:
-    print("This is not a right triangle.")
+    print("This is not the right triangle.")
 }
